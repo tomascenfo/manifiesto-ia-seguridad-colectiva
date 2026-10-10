@@ -1,0 +1,16 @@
+name: Aportar evidencia
+description: Estudio o caso que apoya o contradice una tesis
+title: "Evidencia: "
+body:
+  - type: input
+    id: fuente
+    attributes:
+      label: Fuente y enlace
+    validations:
+      required: true
+  - type: textarea
+    id: argumento
+    attributes:
+      label: Hallazgo, relevancia y limitaciones
+    validations:
+      required: true

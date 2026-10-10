@@ -1,0 +1,20 @@
+name: Cuestionar un principio
+description: Refutar, matizar o replantear uno de los principios
+title: "Debate: "
+body:
+  - type: input
+    id: principio
+    attributes:
+      label: Principio o argumento cuestionado
+    validations:
+      required: true
+  - type: textarea
+    id: critica
+    attributes:
+      label: Objeción o refutación
+    validations:
+      required: true
+  - type: textarea
+    id: referencias
+    attributes:
+      label: Evidencia, fuentes o contraejemplos
